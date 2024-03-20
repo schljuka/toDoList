@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.task {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.red { background-color: #ffcccc; }
+.yellow { background-color: #ffffcc; }
+.green { background-color: #ccffcc; }

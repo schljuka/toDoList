@@ -1,2 +1,2 @@
 # toDoList
-to do lista
+to do list
