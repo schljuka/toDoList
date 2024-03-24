@@ -1,6 +1,30 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.column {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
 .task {
     margin: 5px 0;
     padding: 10px;
@@ -8,6 +32,55 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .red { background-color: #ffcccc; }
 .yellow { background-color: #ffffcc; }
 .green { background-color: #ccffcc; }
+
+.inputi {
+    margin-top: 20px;
+}
+
+.inputi input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.inputi select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.inputi button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.inputi button:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}
